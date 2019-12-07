@@ -4827,31 +4827,6 @@ public final class Settings {
         /** @hide */
         private static final Validator VOLUME_KEY_CURSOR_CONTROL_VALIDATOR =
                 ANY_INTEGER_VALIDATOR;
-
-	/**
-         * How many rows to show in the qs panel when in portrait
-         * @hide
-         */
-        public static final String QS_ROWS_PORTRAIT = "qs_rows_portrait";
-
-        /**
-         * How many rows to show in the qs panel when in landscape
-         * @hide
-         */
-        public static final String QS_ROWS_LANDSCAPE = "qs_rows_landscape";
-
-        /**
-         * How many columns to show in the qs panel when in portrait
-         * @hide
-         */
-        public static final String QS_COLUMNS_PORTRAIT = "qs_columns_portrait";
-
-        /**
-         * How many columns to show in the qs panel when in landscape
-         * @hide
-         */
-        public static final String QS_COLUMNS_LANDSCAPE = "qs_columns_landscape";
-
         /**
          * Enable/Disable screenshot sound
          * @hide
